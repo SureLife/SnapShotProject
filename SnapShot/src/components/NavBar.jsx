@@ -2,7 +2,10 @@
 import { Link } from 'react-router-dom'
 
 
-function NavBar() {
+function NavBar({handleSearch}) {
+
+
+
     return (
     <nav className="NavContainer">
       <ul>
