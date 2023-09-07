@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+h1{
+    font-family: "Lobster","Josefin Sans",Helvetica,Arial,sans-serif;
+    font-size: 80px;
+}
+
+
+input{
+    border: 2px solid rgba(255, 255, 255, 0.708);
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+}

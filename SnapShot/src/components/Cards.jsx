@@ -1,16 +1,21 @@
+import "../style/Cards.css"
+
 export default function Cards({ images }) {
 
     return (
-        <div>
+        <div className="cardsContainer">
+          <ul className="cardsUl">
         {images.map((pic) => (
-          <div key={pic.id}>
+          <li className="cardsLi" key={pic.id}>
             
             <img
               src={`https://farm${pic.farm}.staticflickr.com/${pic.server}/${pic.id}_${pic.secret}.jpg`}
               alt={pic.title}
             />
-          </div>
+          </li>
+          
         ))}
+        </ul>
         </div>
     )
 }

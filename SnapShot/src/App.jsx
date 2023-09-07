@@ -8,12 +8,12 @@ import Cards from "./components/Cards";
 function App() {
   const [images, setPhotos] = useState([]);
   const [error, setError] = useState(null);
-  const [query, setQuery] = useState("Welcome");
+  const [query, setQuery] = useState("colours");
 
   // fetch data from API
   async function handleSearch(text) {
     
-    setQuery(text);
+    setQuery(text); 
   }
     useEffect(() => {
 
@@ -39,10 +39,10 @@ function App() {
       <NavBar handleSearch={handleSearch}/>
       <Routes>
         {/* path for the pages */}
-        <Route path="/mountain" element={<div>Mountain Pictures</div>} />
-        <Route path="/beaches" element={<div>Beaches Pictures</div>} />
-        <Route path="/birds" element={<div>Birds Pictures</div>} />
-        <Route path="/food" element={<div>Food Pictures</div>} />
+        <Route path="/mountain" />
+        <Route path="/beaches" />
+        <Route path="/birds"/>
+        <Route path="/food"/>
       </Routes>
       <Cards images={images} />
     </BrowserRouter>
