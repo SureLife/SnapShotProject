@@ -1,8 +1,12 @@
-# React + Vite
+# SnapShotProject
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Summary
+- Snap Shot is a gallery created using React, React Hooks, React Router and API. 
+- The Routes were setup for four default pages. 
+- The images were displayed using the Flickr API to fetch data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### The purpose of this project was to get familiar with React Hooks, React Router and API.
+
+
+![SnapShot](https://github.com/SureLife/SnapShotProject/assets/103266205/8e14b0eb-155a-4114-90c6-373284a63fbe)
